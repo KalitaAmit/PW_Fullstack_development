@@ -1,0 +1,8 @@
+for every assignment create new folder
+
+if answer of the question is of only text then create separate text file for for each question.
+
+if answer consist of one or many code file like - html, css, js then create another folder for each question inside the assignment folder then create html, css, js file
+
+
+check the video before the submission of assignment

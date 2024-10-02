@@ -1,0 +1,39 @@
+Explain the main components of client-server architecture and their functions.
+
+ Ans:- The client-server architecture consists of two main components: clients and servers, which work together to facilitate 
+ communication and resource sharing in computer networks.
+ This client-server architecture enables efficient communication, resource sharing, and scalable systems, forming the foundation of 
+ modern computing networks. 
+
+
+Client - A client in computer networking refers to any device or software application that requests services or resources from a server. 
+It's essentially the consumer in a client-serve architecture.The client is generally responsible for the user interface and may perform 
+minimal processing tasks. It doesn't store large datasets or handle complex logic.
+for Example suppose my flipkart account request money from my bank(eg. sbi), 
+then my flipkart works as a client. 
+clients include web browsers, email clients, and instant messaging ,game consoles
+applications
+
+Function:
+(1) Initiates requests to the server for specific resources or services.
+(2) Sends request data, such as parameters, URLs, or authentication credentials.
+(3) Receives the response (data, content) from the server and displays or processes it for the end-user.
+(4) Typically handles the user interface (UI) and may perform some local processing tasks.
+(5) Display requested data
+
+
+Server - A server is a high-powered computer or software application designed to process client requests and deliver resources or services.
+Servers are typically designed to be continuously available, as clients may request services at any time.Example: A cloud storage server like 
+Google Drive is available 24/7 so that clients (users) can access their files anytime.
+Types of Servers: There are many types of servers based on the services they provide:
+Web Server: Serves web pages to clients (browsers).
+Database Server: Provides access to databases for clients to query and update.
+File Server: Allows clients to store and retrieve files.
+Mail Server: Manages and delivers email messages to clients.
+
+Function:
+(1) Receives and processes the client's request.
+(2) Returns the requested resource (such as an HTML page, file, or data).
+(3) Manages multiple requests simultaneously from various clients, ensuring that services are available to users globally.
+(4) Provides services such as file storage, database management, and web hosting. (e.g., web servers, database servers, file servers)
+(5) Servers often include load balancing and redundancy to handle high traffic and ensure uptime.
