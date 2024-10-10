@@ -1,0 +1,44 @@
+What is the DOCTYPE Declaration in HTML?
+
+Ans - 
+
+The DOCTYPE declaration in HTML is used to inform the web browser about the version of HTML that the page is written 
+in, so it can render the content properly. It must be the very first thing in the HTML document, before any HTML tag.
+There are different DOCTYPE declarations for older HTML versions (e.g., HTML4, XHTML), but they are less commonly 
+used nowadays.
+In HTML5 The DOCTYPE declaration is simplified and looks like this:
+
+<!DOCTYPE html> 
+
+This tells the browser that the document is written in HTML5.
+
+The purpose of using the DOCTYPE declaration in HTML :
+
+(1)standardizes Browser Rendering: 
+It ensures that the web page is rendered in standards mode, avoiding quirks mode (where browsers render pages based 
+on outdated behavior).
+
+(2) Defines HTML Version: 
+It informs the browser which version of HTML is being used, allowing the correct rules and features of that version 
+to be applied.
+
+(3) Improves Compatibility: 
+It helps ensure consistency across different browsers, reducing rendering discrepancies and improving cross-browser 
+compatibility.The DOCTYPE declaration helps maintain compatibility with older browsers and web technologies.
+
+(4) Prevents Deprecation Issues: 
+The declaration can prevent the use of obsolete HTML elements or attributes, promoting cleaner, more modern code.
+
+(5) SEO Benefits: Using a correct and valid DOCTYPE can improve search engine optimization, as search engines tend 
+to favor websites that follow modern web standards.
+
+The <DOCTYPE>  declaration is not case sensitive,it does not give any
+error.we can write DOCTYPE in many ways
+
+<!DOCTYPE html>
+
+<!DocType html>
+
+<!Doctype html>
+
+<!doctype html>

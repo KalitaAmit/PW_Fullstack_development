@@ -1,0 +1,33 @@
+Write a short note on Tag and element with an example?
+
+Ans - 
+
+Tag in html- 
+
+An HTML tag is used to define the structure and layout of web pages. These tags are the fundamental building blocks 
+of HTML documents, enclosed in angle brackets and containing specific keywords. Tags provide instructions to web 
+browsers on how to present the content. The HTML tag typically consists of an opening tag and closing tag,
+with some exceptions like self-closing tags (example -  <img />). The opening tag begins with a less-than symbol (<), followed 
+by the tag name, and ends with a greater-than symbol (>). The closing tag is similar but includes a forward slash (/) 
+before the tag name to indicate the end of the element.
+
+example of tag -
+
+p tag -  The <p> tag in HTML is used to define a paragraph of text.
+h1 tag - This h1 tag in html is used to define large heading in the viewport
+
+
+Element in html - 
+
+Element is a combination of a starting tag, content, and an ending tag (In some cases only one tag, like self closing
+tag)that representing a single item or unit of content on a web page.
+The content can be text, images, other HTML elements, or simply empty (in the case of self-closing tags). HTML elements help 
+to structure and organize content on a webpage.
+
+syntex of html element -  <tagname>Content goes here...</tagname>
+
+example of html element - 
+(1) <h1>First heading</h1>
+(2)<p>This is a paragraph.</p>
+(3)<img src="image-url" alt="image-description" />
+
