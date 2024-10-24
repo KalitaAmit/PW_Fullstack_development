@@ -1,0 +1,64 @@
+List out the features of HTML5 ?
+
+Ans - The features of html5 are -
+
+(1) new Semantic Element - HTML5 introduced new semantic elements to better define the structure of web pages
+
+<header> - Represents the header of a section or page.
+<footer> - Represents the footer of a section or page.
+<article> - Represents an independent, self-contained piece of content.
+<section> - Represents a generic section of a document.
+<aside> - Represents content indirectly related to the main content (like a sidebar).
+<nav> - Defines navigation links.
+
+(2) Multimedia support -
+
+Audio -  <audio> tag allows embedding audio files without plugins (e.g., MP3, WAV).
+Video -  <video> tag enables embedding videos natively, without third-party plugins (e.g., MP4, WebM).
+supports controls like play, pause, and volume natively.
+
+
+(3) Canvas and SVG Graphics -
+
+<canvas> - Allows drawing graphics, animations, and games directly on the page via JavaScript.
+SVG (Scalable Vector Graphics) -  Enables drawing scalable vector graphics using XML.
+
+(4) Form Enhancements - 
+
+New input types, such as:
+email, url, date, range, search, number, color, tel
+Built-in validation for forms without JavaScript.
+Placeholder attribute for input fields.
+<datalist> for auto-suggest dropdown lists.
+
+(5) Local Storage and Session Storage:
+
+Local Storage: Stores data locally in the user’s browser, with no expiration time (persistent storage).
+Session Storage: Stores data for the duration of the session (temporary storage).
+
+(6) Offline Capabilities:
+
+Application Cache Allows web applications to run offline by caching resources like HTML, CSS, and JavaScript.
+Service Workers (part of the broader PWA ecosystem): Enable advanced offline capabilities, push notifications, and background sync.
+
+(7) Cross Document Messaging - 
+
+there is scenario when you want to embed data from third-party sites such as maps, photos, videos, and more. This can be achieved in HTML 5 with 
+the feature of cross-document messaging, to enable real-time communication between different parts of websites opened in different frames, 
+windows, etc
+
+(8) Geolocation API - 
+
+The Geolocation API is an HTML feature that is used to access the geographical position.
+these come in handy while creating apps like taxi apps, food order tracking apps, fitness tracking apps, and more
+The location is achieved in a way that a user sends their longitude and latitude and this data is sent to 
+the backend server, after which we access that data to create all these fancy applications.
+
+(9) Microdata - 
+
+HTML5 introduced microdata, which helps define metadata about the page’s content to improve search engine understanding.
+
+(10) Offline Capabilities - 
+
+Application Cache: Allows web applications to run offline by caching resources like HTML, CSS, and JavaScript.
+Service Workers (part of the broader PWA ecosystem): Enable advanced offline capabilities, push notifications, and background sync.
