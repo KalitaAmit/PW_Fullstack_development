@@ -1,0 +1,34 @@
+:root {
+    --teal:#031634;
+    --cobalt:#033649;
+    --turquoise:#066464;
+    --beige:#CEB280;
+    --gold:#EADDCC;
+}
+
+body { 
+    /* margin:0 and padding:0 remove default margin and padding of the body */
+    margin:0;
+    padding: 0;
+    background-color: var(--teal);
+    color :white;
+}
+
+#myname {
+    display:block;
+    /* using css variable */
+    color:var(--gold);
+    font-size: 30px;
+}
+
+#experience-list {
+    box-sizing: border-box;
+    border: 10px solid var(--beige);
+    margin:30px;
+    padding:20px;
+    width:300px;
+}
+
+.exp-item {
+    list-style-type:circle ;
+}

@@ -1,0 +1,52 @@
+/* example of element selector */
+div {
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+
+/* example of id seleector */
+#maincontent {
+    color: aquamarine;
+    background-color: black;
+}
+
+
+
+/* example of class selector */
+.divgroup {
+    font-size: 30px;
+    background-color: red;
+}
+
+/* example of universal selector */
+* {
+    letter-spacing: 16px;
+}
+
+
+/*
+
+this
+is
+multi
+line comment
+
+*/
+
+
+/* example of giving color by rgb value */
+p {
+    color: rgb(89, 202, 209);
+}
+
+/* example of giving color by rgba value; */
+h2 {
+    color: rgb(49,82,92 0.4);
+}
+
+/* example of giving color by hex code */
+h4 {
+    color: #ba8f8f;
+}
+

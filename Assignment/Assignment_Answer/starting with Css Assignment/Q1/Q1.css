@@ -1,0 +1,22 @@
+
+/*  adding style by using external css */
+#third {
+    background-color: #C43302;
+    border:1px dashed black;
+    height: 20px;
+    width: 150px;
+    padding: 10px;
+    margin:20px;
+}
+
+
+
+/* targating  first div by using external css */
+#first{
+    background-color: #00635A;
+    border:10x dotted pink;
+    margin:50px;
+    padding: 50px;
+    height: 200px;
+    width:1000px;
+}

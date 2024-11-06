@@ -1,0 +1,35 @@
+h1 {
+    /* ceates underline of the text */
+    /* text-decoration:underline; */
+
+    /* creates overline of the text */
+    /* text-decoration: overline; */
+
+    /* create a line through the text */
+    /* text-decoration:line-through; */
+
+
+    /* text decoration shorthand */
+    /* text-decoration: text-decoration-line color type thickness */
+
+    text-decoration: underline blue 10px;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    /* creates spece between letter */
+    letter-spacing: 20px;
+    /* create space between word */
+    word-spacing: 150px;
+    /* creates vertical space between line */
+    line-height: 200px;
+    /* align text into center */
+    text-align: center;
+}
+
+span {
+    /* control the vertical alignment of an element relative to tis parent  */
+    /* in this case span is parent of h2 */
+    vertical-align: text-top;
+}
