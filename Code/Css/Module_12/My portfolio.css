@@ -1,0 +1,74 @@
+:root {
+    --teal: #031634;
+    --cobalt: #033649;
+    --turquoise: #066464;
+    --beige: #CEB280;
+    --gold: #EADDCC;
+}
+
+body {
+    /* margin:0 and padding:0 remove default margin and padding of the body */
+    margin: 0;
+    padding: 0;
+    background-color: var(--teal);
+    color: white;
+}
+
+#myname {
+    display: block;
+    /* using css variable */
+    color: var(--gold);
+    font-size: 30px;
+}
+
+#experience-list {
+    box-sizing: border-box;
+    border: 10px solid var(--beige);
+    margin: 30px;
+    padding: 20px;
+    width: 300px;
+}
+
+.exp-item {
+    list-style-type: circle;
+}
+
+.section-turquoise {
+    background-color: var(--turquoise);
+}
+
+.gradient-section {
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(2, 0, 36, 1) 1%, rgba(106, 3, 180, 1) 100%);
+    margin-bottom: 5px;
+}
+
+#experience-header {
+    font-size: 3em;
+    /* text-align:center; */
+    width: 40%;
+    margin: 0 auto;
+    padding: 1 rem;
+
+
+}
+
+#navlist {
+    /* navlist is our flex container */
+    list-style-type: none; /* remove list style type */
+    padding: 0px;
+    margin: 0px;
+    display:flex;
+    /* default direction of flex item is row */
+    gap:2rem;
+    justify-content: space-around;
+    /* justify-content:center; */
+    height:80px;
+    align-items: center;
+}
+
+.navlist-item-text {
+    text-decoration: none;
+    color:white;
+    
+}

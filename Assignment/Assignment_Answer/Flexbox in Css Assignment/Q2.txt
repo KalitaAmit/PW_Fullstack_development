@@ -1,0 +1,58 @@
+Explain the role of the following key properties in the Flexbox layout model
+(1) justify-content 
+(2) align-item 
+(3) gap 
+(4) flex-direction
+(5) flex-wrap
+
+Ans:- 
+(1) justify-content
+
+The justify-content property aligns flex items along the main axis (horizontal by default). It controls the distribution of space between 
+items and their positioning within the container. 
+
+Key value are -
+(a) flex-start - Aligns items at the start of the main axis.
+(b) flex-end - Aligns items at the end of the main axis.
+(c) center - Centers items along the main axis.
+(d) space-between - Distributes items evenly, with the first item at the start and the last item at the end.
+(e) space-around - Distributes items with equal space around them.
+
+(2) align-items
+
+The align-items property aligns flex items along the cross axis (vertical by default). It determines the positioning of items perpendicular to
+the main axis.
+
+Key value are -
+
+(a) stretch - stretches items to fill the container along the cross axis.
+(b) flex-start: Aligns items at the start of the cross axis.
+(c) flex-end: Aligns items at the end of the cross axis.
+(d) center: Centers items along the cross axis.
+
+(3) gap -
+
+The gap property controls the spacing between flex items along both the main and cross axes. Unlike margins, gap creates space between 
+each item without adding space at the edges of the container. This makes it easy to create uniform spacing between items in a flex container.
+gap: 20px; - Sets a 20px space between each item.
+It can also accept two values, like gap: 10px 20px;, to define separate spacing for row and column gaps.
+
+(4) flex-direction
+
+The flex-direction property sets the direction of the main axis, determining how flex items are ordered and aligned in the container. 
+Key value are -
+(a) row - Items are laid out in a row from left to right.
+(b) row-reverse - Items are laid out in a row from right to left.
+(c) column - Items are laid out in a column from top to bottom.
+(d) column-reverse - Items are laid out in a column from bottom to top.
+
+(5) flex-wrap
+
+The flex-wrap property controls whether flex items should wrap onto multiple lines if they don’t fit in the container. It determines how 
+overflow is handled along the main axis.
+
+Key Value are - 
+
+(a) nowrap - All items remain on a single line, even if they overflow the container.
+(b) wrap - Items wrap onto additional lines as needed, stacking below the previous line.
+(c) wrap-reverse - Items wrap onto additional lines, but new lines are stacked above the previous line.
