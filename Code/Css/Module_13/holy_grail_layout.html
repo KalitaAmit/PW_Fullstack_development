@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>holy_gril_layout</title>
+
+
+    <style>
+        #container {
+            display: grid;
+            text-align: center;
+            grid-template-rows:10vh 80vh 10vh;
+            /* grid-template-columns:1fr 3fr 1fr; */
+            grid-auto-flow: column;
+            grid-template-areas:
+                "header header header"
+                "main main main"
+                "footer footer footer";
+        }
+
+        main {
+            display: grid;
+            grid-area: main;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr 3fr 1fr;
+
+        }
+
+        header {
+            grid-area: header;
+            background-color: red;
+        }
+
+        nav {
+            background-color: blue;
+        }
+        aside{
+            background-color:green;
+        }
+       article{
+            background-color:yellow;
+        }
+        footer {
+            grid-area: footer;
+            background-color: brown;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>header</h1>
+        </header>
+
+
+        <main>
+            <nav>
+                <h1>nav</h1>
+            </nav>
+
+            <article>
+                <h1>article</h1>
+            </article>
+
+            <aside>
+                <h1>aside</h1>
+            </aside>
+        </main>
+
+
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+</body>
+
+</html>

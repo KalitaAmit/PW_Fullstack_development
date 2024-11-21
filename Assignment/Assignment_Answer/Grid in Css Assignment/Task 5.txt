@@ -1,0 +1,84 @@
+
+Question - Explain the difference between justify-items and justify-self using code examples.
+
+Ans:- 
+
+In Css Grid Layout, justify-items and justify-self are two properties used to align items within grid cells. While they both control 
+alignment, they operate at different levels.
+
+
+justify-items - 
+
+Targets All items within a specific grid container and Controls The horizontal alignment of items within their individual cells.
+
+The effect of this property is dependent of the layout mode we are in:  In grid layouts, it aligns the items inside their grid areas on 
+the inline axis. In block-level layouts, it aligns the items inside their containing block on the inline axis.For absolutely-positioned 
+elements, it aligns the items inside their containing block on the inline axis, accounting for the offset values of top, left, bottom, 
+and right.
+
+justify-self - 
+
+Targets individual items within a grid container and Controls The horizontal alignment of a specific item within its cell.
+
+The effect of this property is dependent of the layout mode we are in: In grid layouts, it aligns an item inside its grid area on the 
+inline axis. In block-level layouts, it aligns an item inside its containing block on the inline axis.For absolutely-positioned elements,
+it aligns an item inside its containing block on the inline axis, accounting for the offset values of top, left, bottom, and right.
+ 
+
+
+
+syntex- 
+
+justify-items: start | end | center | stretch;
+
+justify-self: start | end | center | stretch;
+
+
+
+
+Example of justify-items and justify-self
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Items vs Justify Self</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 100px);
+            gap: 10px; /* Space between grid items */
+
+            justify-items: center; 
+            /* Align all items horizontally to the center */
+        }
+
+        .box {
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid blue;
+        }
+
+       
+        .box3 {
+            justify-self: end; 
+            /* Align this item to the end of its grid cell */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+    </div>
+</body>
+</html>
+
