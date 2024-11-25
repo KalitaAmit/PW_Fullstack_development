@@ -1,0 +1,11 @@
+nav:last-of-type::after{
+    content: "...";
+}
+
+nav ul li::marker {
+    color:red;
+}
+
+p:nth-of-type(2)::first-letter {
+    color: aqua;
+}

@@ -1,0 +1,13 @@
+ul a {
+    color:
+        red;
+}
+
+nav>h2 {
+    background-color: yellow;
+    font-style: italic;
+}
+
+div+p {
+    color: red;
+}
