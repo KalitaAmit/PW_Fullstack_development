@@ -1,0 +1,14 @@
+:root {
+    --primary-button: #00b7ff;
+    --secondary-button: #6c757d;
+}
+
+#primaryBtn {
+    background-color: var(--primary-button);
+    color: white;
+}
+
+#secondaryBtn {
+    background-color: var(--secondary-button);
+    color: white;
+}

@@ -1,0 +1,27 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#box:hover {
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    /* animation-iteration-count: 5; */
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: cyan
+    }
+
+    100% {
+        background-color: blue;
+    }
+}

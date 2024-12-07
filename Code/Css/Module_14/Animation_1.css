@@ -1,0 +1,67 @@
+#parent {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue
+}
+
+#red {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    /* border: 5px solid black; */
+
+    /* This will move element orizontally */
+    /* transform: translateX(120px); */
+
+    /* This will move element vertically */
+    /* transform: translateY(120px); */
+
+    /* border-radius: 100%; */
+
+    /* This will move the element with id red 120px in x-axis and y-axis*/
+    /* transform: translate(120px, 120px); */
+
+    /* transform: rotateY(45deg); */
+
+
+    /* Css transition property */
+    transition-property: background-color;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+    /* transition-delay:1s; */
+
+}
+
+#red:hover {
+    background-color: yellow;
+}
+
+/* #lime {
+    height: 5px;
+    width: 50px;
+    background-color: black;
+} */
+
+#expnad {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    /* transition-porperty: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 5s; */
+
+    /* shorthand of above four property */
+    transition: all 2s ease-in-out 2s;
+}
+
+#expnad:hover {
+    width: 500px;
+    height: 600px;
+}
