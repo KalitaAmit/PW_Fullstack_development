@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+ul {
+    /* remove the bullet point from all list item of ul tag */
+    list-style-type: none;
+    display: flex;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bloder;
+    transition: all 0.6s ease;
+}
+
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:758px) {
+    /* we will apply the below rules only to those screen which have atmost 768px */
+
+    header {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    header {
+        height: auto;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    ul {
+        width: 100%;
+        display:block;
+
+    }
+
+    ul li {
+        width: 100%;
+        margin:20px;
+    }
+
+    header {
+        height: 150px;
+    }
+}
