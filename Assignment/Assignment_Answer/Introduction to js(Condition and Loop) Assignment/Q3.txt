@@ -1,0 +1,83 @@
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+
+Ans : - 
+
+Loops are a fundamental concept in programming that allow you to repeatedly execute a block of code.
+They are essential for automating tasks, iterating over collections of data, and performing actions multiple times.
+
+use of loop: 
+(1) Automation: Loops eliminate the need to write the same code repeatedly for similar tasks.
+(2) Data Processing: They enable efficient processing of large datasets, such as lists, arrays, and strings.
+(3) Repetition: Loops are crucial for tasks that require a specific number of repetitions or until a certain condition is met.
+(4) Pattern Recognition: They can be used to identify and analyze patterns within data.
+
+
+Types of Loops in JavaScript:
+
+(1) For Loop:
+
+syntax:
+
+for (initialization; condition; increment/decrement) {
+    // Code to be executed
+}
+
+Example:
+
+for (let i = 0; i < 5; i++) {
+    console.log(i); // Output: 0, 1, 2, 3, 4
+}
+
+
+(2) While Loop:
+
+syntax:
+
+while (condition) {
+    // Code to be executed
+}
+
+
+Example:
+
+let count = 0;
+while (count < 3) {
+    console.log("Hello!"); // Output: "Hello!" three times
+    count++;
+}
+
+
+(3) Do...while Loop:
+
+syntax:
+
+do {
+    // Code to be executed
+} while (condition);
+
+
+
+Example:
+
+let i = 0;
+do {
+    console.log(i); // Output: 0
+    i++;
+} while (i > 1); 
+
+
+(4) For...of Loop:
+
+syntax:
+
+for (const element of iterable) {
+    // Code to be executed
+}
+
+Example:
+
+const fruits = ["apple", "banana", "cherry"];
+for (const fruit of fruits) {
+    console.log(fruit); // Output: apple, banana, cherry
+}
