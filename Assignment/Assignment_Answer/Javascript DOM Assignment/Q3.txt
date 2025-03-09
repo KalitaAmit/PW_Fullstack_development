@@ -1,0 +1,32 @@
+Q3. Explain the concept of Event Bubbling in the DOM.
+
+Ans:- 
+Event Bubbling is a mechanism in the DOM where an event triggered on a child element propagates up through its ancestors in the DOM tree.
+ This means that if an event occurs on a nested element, it will also trigger event handlers on all of its parent elements, moving up the 
+ hierarchy.
+
+Example:
+
+html
+
+<div id="grandparent">
+  Grandparent
+  <div id="parent">
+    Parent
+    <div id="child">Child</div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('grandparent').addEventListener('click', () => {
+    alert('Grandparent clicked');
+  });
+
+  document.getElementById('parent').addEventListener('click', () => {
+    alert('Parent clicked');
+  });
+
+  document.getElementById('child').addEventListener('click', () => {
+    alert('Child clicked');
+  });
+</script>

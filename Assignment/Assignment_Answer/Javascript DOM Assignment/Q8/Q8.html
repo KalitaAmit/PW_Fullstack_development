@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <input type="text" id="itemInput" placeholder="Enter item">
+    <button id="addButton">Add Item</button>
+    <ul id="shoppingList"></ul>
+
+    <script>
+        document.getElementById('addButton').addEventListener('click', function () {
+            let input = document.getElementById('itemInput');
+            let itemText = input.value.trim();
+
+            if (itemText !== '') {
+                let li = document.createElement('li');
+                li.textContent = itemText;
+
+                let deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.addEventListener('click', function () {
+                    li.remove();
+                });
+
+                li.appendChild(deleteButton);
+                document.getElementById('shoppingList').appendChild(li);
+                input.value = '';
+                input.focus();
+            }
+        });
+    </script>
+</body>
+
+</html>

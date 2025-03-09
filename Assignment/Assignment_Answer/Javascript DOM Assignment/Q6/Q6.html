@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <style>
+        .carousel {
+            width: 300px;
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+
+        .carousel img {
+            width: 100%;
+            display: none;
+        }
+
+        .carousel img.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carousel">
+        <img src="image1.png" alt="Image 1" class="active">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.png" alt="Image 3">
+    </div>
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+
+    <script>
+        let images = document.querySelectorAll('.carousel img');
+        let currentIndex = 0;
+
+        function showImage(index) {
+            images.forEach((img, i) => {
+                img.classList.toggle('active', i === index);
+            });
+        }
+
+        document.getElementById('nextButton').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        });
+
+        document.getElementById('prevButton').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        });
+    </script>
+</body>
+
+</html>
