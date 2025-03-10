@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Tailwind CDn -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+
+</head>
+
+<body class="bg-[#0A192F]">
+    <header class="px-10 py-5">
+
+        <nav class="flex items-center justify-between font-mono text-[#CCD6F6]">
+
+            <!-- Logo -->
+
+            <div class="bg-[#64FFDD] rounded-lg">
+                <img src="./Asset/stopwatch.png"
+                    class="bg-[#0A192F] border rounded-md hover:-translate-y-1 ease-in-out">
+            </div>
+
+            <!-- Menu item -->
+            <div class="flex gap-5 item-center">
+                <ol class="flex gap-6 text-[#CCD6F6]">
+                    <li>
+                        <a href="#contact">
+                            <span class="text-[#CCD6F6] hover:text-[#64FFDA]">Contact</span></a>
+                    </li>
+                    <li>
+                        <a href="#home">
+                            <span class="text-[#CCD6F6] hover:text-[#64FFDA]">home</span></a>
+                    </li>
+                    <li>
+                        <a href="#About">
+                            <span class="text-[#CCD6F6] hover:text-[#64FFDA]">About</span></a>
+                    </li>
+                    <li>
+                        <a href="#Experience">
+                            <span class="text-[#CCD6F6] hover:text-[#64FFDA]">Experience</span></a>
+                    </li>
+                </ol>
+                <!-- Button -->
+                <button
+                    class="py-1 px-4 border-2 rounded border-[#64FFDA] hover:-translate-y-1  ease-in-out">Resume</button>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <section class="h-[90vh] relative max-auto flex items-center justify-center">
+
+        <div class="w-2/3 max-auto">
+            <p class="text-[#64FFDA] font-medium font-mono">hi, my name is</p>
+            <h1 class="font-extrabold leading-[65x] text-6xl text-[#CCD6F6] font-sans">AMIT KALITA</h1>
+            <p class="py-8 text-xl text text-[#CCD6F6]">
+                I am a software engineer specialising in full stack development
+            </p>
+        </div>
+
+        <div class=" bg-light-100 fixed bottom-50 flex flex-col items-center justify-end right-2 gap-44">
+            <a href="mailto:amitkalita1999@gmail.com" class="w-24 rotate-90 text-[#CCD6F6]">amitkalita1999@gmail.com</a>
+        </div>
+
+    </section>
+</body>
+
+</html>
