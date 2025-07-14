@@ -1,0 +1,35 @@
+Q7. What is the purpose of the alt attribute in the <img> tag? Why is it important for accessibility and SEO?
+
+Ans: - 
+
+The alt (alternative text) attribute in the <img> tag provides a text description of an image. It is displayed when the image fails to\
+load and is used by screen readers to describe images to visually impaired users.
+
+alt Attribute is important
+
+(1) Accessibility for Visually Impaired Users
+
+Screen readers read the alt text aloud, helping users understand the image content.
+For Non-Visual Browsers:
+Some browsers (like text-based browsers) cannot display images but can show the alt text.
+
+Example:
+
+<img src="dog.jpg" alt="A golden retriever playing in the park.">
+Without alt: A visually impaired user won’t know what the image represents.
+With alt: A screen reader announces: "A golden retriever playing in the park."
+
+(2) SEO (Search Engine Optimization) helps search Engines Understand Images
+
+search engines cannot "see" images but can read the alt text to index the content.
+Improves Image Search Rankings:
+Images with descriptive alt text are more likely to appear in Google Image Search results.
+Enhances Website Ranking:
+Websites with accessible images score higher in SEO rankings.
+
+Example for SEO-Friendly alt:
+
+<img src="web-design-tips.jpg" alt="10 essential web design tips for beginners.">
+
+Good alt text: Descriptive, relevant, and keyword-optimized.
+Bad alt text: "image1.jpg" or "picture" (too vague).

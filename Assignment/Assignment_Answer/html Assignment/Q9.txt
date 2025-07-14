@@ -1,0 +1,17 @@
+Q9. Give an example of an HTML tag with attributes
+
+Ans: -
+
+Example of an HTML tag with attribute:
+
+<input type="email" name="user-email" placeholder="Enter your email" required>
+
+Breakdown of Attributes in This Example:
+
+type="email" → Specifies that this input field is for email addresses.
+
+name="user-email" → Assigns a name to the input field for form submission.
+
+placeholder="Enter your email" → Displays hint text inside the field.
+
+required → Makes the field mandatory before form submission.

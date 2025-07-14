@@ -1,0 +1,47 @@
+Q2. What are semantic HTML elements? Provide examples of three semantic tags and explain their
+significance.
+
+Ans:-
+ 
+Semantic HTML elements are tags that convey the meaning of their content to both the browser and developers. Unlike generic <div> and <span> elements, semantic tags clearly define the purpose of the content, improving readability, accessibility, and SEO.
+
+Examples of Semantic Tags and Their Significance
+
+(1)<header>
+
+Purpose: Represents the introductory section of a page or a section, typically containing navigation links, logos, or headings.
+Significance: Helps search engines and screen readers recognize the header as a key section, improving SEO and accessibility.
+
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+
+
+(2)<article>
+
+Purpose: Represents a self-contained, independent content block, such as a blog post, news article, or forum post.
+Significance: Helps search engines recognize the content as a distinct piece of information, improving indexing.
+html
+Copy
+Edit
+<article>
+    <h2>Understanding Semantic HTML</h2>
+    <p>Semantic elements make web pages more meaningful...</p>
+</article>
+
+
+(3)<footer>
+
+Purpose: Represents the footer section of a webpage or an article, typically containing copyright information, links, or contact details.
+Significance: Helps in organizing page layout while improving accessibility and SEO.
+html
+Copy
+Edit
+<footer>
+    <p>&copy; 2025 My Website. All Rights Reserved.</p>
+</footer>

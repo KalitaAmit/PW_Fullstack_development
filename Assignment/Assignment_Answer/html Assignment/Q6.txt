@@ -1,0 +1,41 @@
+Q6. Explain the difference between <div> and <span> elements in HTML. When would you use each?
+
+Ans: - 
+
+Both <div> and <span> are used for grouping elements, but they serve different purposes in terms of layout and styling.
+
+1. <div> (Block-Level Container)
+
+A block-level element that takes up the full width of its parent container.
+It starts on a new line and is used to group larger sections of content.
+Commonly used for layout structuring in combination with CSS and JavaScript.
+
+Example:
+
+<div style="background-color: lightgray; padding: 10px;">
+    <h2>Section Title</h2>
+    <p>This is a paragraph inside a div.</p>
+</div>
+
+
+Usage of <div>
+
+To group multiple elements (like text, images, and buttons) together.
+To apply CSS styling to a larger section of the page.
+To create layouts (e.g., grid systems, flexbox structures).
+
+
+2. <span> (Inline Container)
+An inline element that only takes up as much width as its content.
+Does not start on a new line.
+Typically used to style small pieces of text within a paragraph or heading.
+
+Example :
+
+<p>This is a <span style="color: red;">highlighted</span> word in a sentence.</p>
+Usage of <span>
+
+To apply styling (e.g., color, font changes) to a small portion of text.
+To modify inline content without affecting the surrounding layout.
+To wrap text inside JavaScript interactions (e.g., tooltips, dynamic updates).
+

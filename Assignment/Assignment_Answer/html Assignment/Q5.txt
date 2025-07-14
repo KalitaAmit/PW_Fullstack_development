@@ -1,0 +1,26 @@
+Q5. What is the Document Object Model (DOM), and how does it relate to HTML?
+
+Ans: - 
+
+
+The Document Object Model (DOM) is a programming interface that represents an HTML or XML document as a tree-like structure. 
+It allows JavaScript and other programming languages to interact with and modify web pages dynamically.
+
+DOM Relate to HTML .When a browser loads an HTML document, it converts the document into a structured DOM tree.
+Every HTML element becomes a node in the tree, allowing programs to access and manipulate them.
+Dynamic Webpage Interaction
+
+Using JavaScript, developers can change content, styles, and structure of the webpage without reloading the page.
+
+Example: Changing the text of a paragraph dynamically.
+
+<p id="demo">Hello, World!</p>
+<script>
+    document.getElementById("demo").innerText = "Hello, DOM!";
+</script>
+Hierarchy in the DOM
+
+The document is represented in a tree-like hierarchy:
+Root Node: <html>
+Child Nodes: <head> and <body>
+Further Child Nodes: <title>, <h1>, <p>, etc.

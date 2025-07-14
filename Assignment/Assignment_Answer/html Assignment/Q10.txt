@@ -1,0 +1,33 @@
+Q10. What is the difference between an absolute URL and a relative URL in HTML? Provide an example of each
+
+Ans: -
+
+Difference Between Absolute URL and Relative URL in HTML
+
+URLs (Uniform Resource Locators) are used to link resources like web pages, images, or scripts in HTML. 
+
+There are two types of URLs: Absolute URLs and Relative URLs.
+
+(1) Absolute URL
+An absolute URL specifies the full web address, including the protocol (http:// or https://), domain name, and the file path. It always points to the same location, regardless of where the document is located.
+
+Use Case: When linking to external websites or resources.
+
+Example:
+
+<a href="https://www.example.com/about.html">Visit About Page</a>
+https://www.example.com/about.html → Full web address (Absolute URL).
+The link works from any website.
+
+(2) Relative URL
+A relative URL specifies a path relative to the current document's location. It does not include the domain name, making it shorter 
+and more flexible for linking within the same website.
+
+Use Case: When linking to pages within the same website.
+
+Example:
+
+<a href="about.html">Visit About Page</a>
+
+Only "about.html" is mentioned, meaning the browser looks for the file within the same directory.
+The link will only work within the same website.
